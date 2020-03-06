@@ -165,8 +165,6 @@ function App() {
 
       </div>
     
-      <a href="curriculoLemuel.pdf">Baixar meu currículo</a>
-    
     </div>
   );
 }

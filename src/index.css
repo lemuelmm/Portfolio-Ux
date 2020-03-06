@@ -128,13 +128,16 @@ body {
     width: 100%;
     height: auto;
     margin: 0px;
-    padding: 0px;
+    padding: 2vh;
     margin-left: 0;
     margin-right: 0;
 }
 
-h1, h2 {
-  font-size: 4vh;
+h1 {
+  font-size: 6vh;
+}
+h2 {
+  font-size: 5vh;
 }
 
   .main-imgs, #flex {
@@ -147,7 +150,7 @@ h1, h2 {
   padding: none;
 }
 
-#webMainContent, #imgWeb, #webContent , p, .popup-content, .webPopup {
+#webMainContent, #imgWeb, #webContent , p, .popup-content, .webPopup, .mainMobile {
   width: 100%;
   height: auto;
 }
@@ -174,6 +177,8 @@ img {
   box-shadow: none;
   margin: none !important;
   padding: none !important;
+  margin-bottom: 1vh !important;
+  margin-top: 1vh !important;
 }
 
 .secondColumn, #imgMobile, #flex {
@@ -185,4 +190,10 @@ img {
 #flex > :not(:first-child) {
   margin-left: 0px;
 }
+
+#imgMobile {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 }
