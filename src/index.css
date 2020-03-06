@@ -15,6 +15,7 @@ body {
   background: linear-gradient(180deg, rgba(98, 160, 137, 0.2) 0%, rgba(165, 180, 149, 0.2) 100%), #FFFFFF;
 }
 
+
 h1 {
   font-size: 50px;
   font-weight: 700;
@@ -95,6 +96,7 @@ p {
   display: inline-flex;
 }
 
+
 .secondColumn {
   margin-top: 30px;
 }
@@ -118,4 +120,69 @@ p {
   box-sizing: border-box;
   margin: auto !important;
   border: 0px !important;
+}
+
+
+@media (max-width: 800px) {
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1, h2 {
+  font-size: 4vh;
+}
+
+  .main-imgs, #flex {
+    display: grid;
+}
+
+#flex, .secondColumn, p  > :not(:first-child) {
+  margin-left:none;
+  margin-right: none;
+  padding: none;
+}
+
+#webMainContent, #imgWeb, #webContent , p, .popup-content, .webPopup {
+  width: 100%;
+  height: auto;
+}
+
+.imgWebExpand, .popup-overlay {
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+}
+
+.popup-content, .webPopup {
+  width: auto;
+  height: auto;
+}
+
+#webContent {
+  margin-bottom: 5px;
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+  padding-right: 0px;
+}
+
+img {
+  box-shadow: none;
+  margin: none !important;
+  padding: none !important;
+}
+
+.secondColumn, #imgMobile, #flex {
+  display: grid;
+  margin: 0;
+  margin-left: 0px ;
+}
+
+#flex > :not(:first-child) {
+  margin-left: 0px;
+}
 }

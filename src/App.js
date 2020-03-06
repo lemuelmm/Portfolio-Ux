@@ -158,14 +158,14 @@ function App() {
               <img className="imgWebExpand" src={msg2} alt=""/>
             </div>
           </Popup>
-          <p>* esse site não está em no ar, foi feito unico e exclusivamente para representar minhas capacidades de refazer um site real</p>
         </div>
+          <p>* esse site não está em no ar, foi feito unico e exclusivamente para representar minhas capacidades de refazer um site real</p>
        
 
 
       </div>
     
-    
+      <a href="curriculoLemuel.pdf">Baixar meu currículo</a>
     
     </div>
   );
