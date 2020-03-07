@@ -44,6 +44,11 @@ h2{
   display: flex;
 }
 
+.adendo {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 #imgWeb {
   width: 800.16px;
   height: 380px;
