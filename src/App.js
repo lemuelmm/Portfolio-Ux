@@ -160,7 +160,8 @@ function App() {
           </Popup>
         </div>
           <p>* esse site não está em no ar, foi feito unico e exclusivamente para representar minhas capacidades de refazer um site real</p>
-          <p>Para o projeto do Geopark Araripe foi usado a plataforma de prototipação Figma, para criar o site institucional eu usei o Adobe Xd</p>
+        <p></>      
+    <p className="adendo">Para o projeto do Geopark Araripe foi usado a plataforma de prototipação Figma, para criar o site institucional eu usei o Adobe Xd</p>
        
 
 
