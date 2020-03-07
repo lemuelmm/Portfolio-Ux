@@ -43,9 +43,9 @@ function App() {
         <img className="mainImg" id="imgMobile" src={loginMobile} alt=""/>
       </div>
       <h3>O Problema:</h3>
-      <p>A necessidade de acompanhar mais de perto o estado dos gesítios do geoparque araripe é cada vez maior, mas esse processo é demorado pois tanto o levantamento dos dados in-loco como o processamento é analógico, por conta disso o intuito desse projeto e facilitar a coleta de dados por meio de um app mobile, e o processamento e mostragem de informações pela plataforma Web.</p>
+      <p>A necessidade de acompanhar mais de perto o estado dos gesítios do geoparque araripe é cada vez maior, porém esse processo é demorado, pois, tanto o levantamento dos dados é feito presencialmente, como o processamento também é analógico, por conta disso, o intuito desse projeto é facilitar a coleta, processamento e acesso ás informações do Geopark.</p>
       <h3>Processo de criação:</h3>
-      <p>Como o objetivo principal é facilitar a coleta de dados, naturalmente o levantamento das necessidades e ambiênte em que o pesquisador faria a coleta era o principal, e a partir daí foram desenvolvidas as Ui do aplicativo mobile.</p>   
+      <p>Como o objetivo principal é facilitar a coleta de dados, naturalmente o levantamento das necessidades e peculiaridades do uso do aplicativo foram levadas em conta, como o ambiênte em que o pesquisador fará a coleta,  sendo assim, foi desenvolvida uma interface que favorecesse o uso em locais com muita luminosidade, como é o campo de pesquisa.</p>   
       <div>
 
         <h3>Telas Geopark Mobile:</h3>
@@ -73,7 +73,7 @@ function App() {
         <h3>Telas Geopark Web:</h3>
           <div id="flex">
             <img id="webMainContent" src={homeWeb} alt=""/>
-            <p className="mainMobile">A aplicação Web tem como usuário o administrador, e será onde os relatórios dos geosítios e geoparques serão apresentados, além do gerenciamento dos pesquisadores cadastrados, geosítios e solicitações de relatórios de geosítios que deverão ser feitos.</p>
+            <p className="mainMobile">A aplicação Web tem como usuário o administrador e será onde os relatórios dos geosítios e geoparques serão apresentados. Além do gerenciamento dos pesquisadores cadastrados, geosítios e solicitações de relatórios de geosítios que deverão ser feitos.</p>
           </div>
         <div>
           <div className="webPopup">
@@ -159,9 +159,9 @@ function App() {
             </div>
           </Popup>
         </div>
-          <p>* esse site não está em no ar, foi feito unico e exclusivamente para representar minhas capacidades de refazer um site real</p>
-        <p></>      
-    <p className="adendo">Para o projeto do Geopark Araripe foi usado a plataforma de prototipação Figma, para criar o site institucional eu usei o Adobe Xd</p>
+          <p className="adendo">* este site não está no ar, foi criado único e exclusivamente para demonstrar minhas capacidades para a recriação de um site real.</p>
+        <p><p/>      
+    <p >Para o projeto do Geopark Araripe foi usado a plataforma de prototipação Figma, para criar o site institucional foi usado o Adobe Xd.</p>
        
 
 
