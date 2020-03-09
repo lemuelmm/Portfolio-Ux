@@ -37,6 +37,7 @@ function App() {
         <p>Eu sou Ui/Ux Designer, de Juazeiro do norte, apaixonado por criar e comunicar por meio de interfaces bonitas e fáceis de usar.</p>
       </div>
       <h3>Projetos:</h3>
+      <p>Conheça alguns projetos que fiz, ou estão em desenvolvimento.</>
       <h2>Geoparque Araripe</h2>
       <div className="main-imgs">
         <img id="imgWeb" src={homeWeb} alt=""/>
